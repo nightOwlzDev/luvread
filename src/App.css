@@ -1,22 +1,40 @@
-.App {
-  text-align: center;
+@font-face {
+
+  font-family: 'Mali-Bold';
+  src: url('/fonts/Mali-Bold.ttf');
+
 }
 
-.App-logo {
-  height: 40vmin;
+@font-face {
+
+font-family: 'Mali-Medium';
+src: url('/fonts/Mali-Medium.ttf');
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+
+font-family: 'Mali-Regular';
+src: url('/fonts/Mali-Regular.ttf');
+
 }
 
-.App-link {
-  color: #09d3ac;
+
+.ml-bold{
+
+font-family: 'Mali-Bold';
+
 }
+
+.ml-regular{
+
+  font-family: 'Mali-Regular';
+  
+}
+
+.ml-medium{
+
+  font-family: 'Mali-Medium';
+  
+} 
+
